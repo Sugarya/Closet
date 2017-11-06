@@ -1,0 +1,74 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.sugarya.closet.ui.home.fragment.ClosetFragment"
+    >
+
+    <ScrollView
+        android:id="@+id/home_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:background="@color/bg_default_category"
+        >
+
+        <RelativeLayout
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_home_category_indicator"
+                android:layout_width="5dp"
+                android:layout_height="@dimen/category_unit_height"
+                android:background="@color/red_dark"
+                />
+
+            <LinearLayout
+                android:id="@+id/container_home_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/tv_home_category_indicator"
+                android:orientation="vertical"
+                >
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <!--<View-->
+        <!--android:layout_width="1px"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/line"-->
+        <!--/>-->
+
+    <LinearLayout
+        android:id="@+id/home_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/bg_fragment_body"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_closet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:scrollbars="none"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

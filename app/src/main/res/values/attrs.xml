@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FilterBarLayout">
+        <attr name="firstFilterText" format="string"/>
+        <attr name="secondFilterText" format="string"/>
+        <attr name="thirdFilterText" format="string"/>
+        <attr name="fourthFilterText" format="string"/>
+        <attr name="fifthFilterText" format="string"/>
+        <attr name="filterTextColor" format="color"/>
+        <attr name="filterTextSize" format="dimension"/>
+        <attr name="filterBarHeight" format="dimension"/>
+        <attr name="filterTextSelectedColor" format="color"/>
+        <attr name="filterCoverColor" format="color"/>
+        <attr name="indicatorDrawable" format="reference"/>
+        <attr name="indicatorSelectedDrawable" format="reference"/>
+        <attr name="indicatorGravity" format="enum">
+            <enum name="center_horizontal" value="1"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="LoadingIndicatorView">
+        <attr name="indicator_color" format="color" />
+    </declare-styleable>
+
+</resources>

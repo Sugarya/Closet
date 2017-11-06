@@ -1,0 +1,112 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sugarya.closet.ui.home.fragment.HomeFragment"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <include layout="@layout/include_toolbar_basic"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_fragment_body"
+            >
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tab_home"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                app:tabGravity="center"
+                app:tabMode="fixed"
+                app:tabTextColor="@color/font_black_light"
+                app:tabSelectedTextColor="@color/font_red"
+                app:tabIndicatorColor="@color/font_red"
+                app:tabIndicatorHeight="3dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    >
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_record_count"
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:layout_gravity="left|top"
+                        android:gravity="center"
+                        android:background="@drawable/bg_record_count"
+                        android:text="0"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@color/white"
+                        android:textSize="8sp"
+                        android:visibility="gone"
+                        />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line"
+            />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            />
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="72dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_photo_camera"
+        app:background="@color/font_red_light"
+        app:elevation="5dp"
+        app:fabSize="normal"
+        app:rippleColor="@color/orange"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

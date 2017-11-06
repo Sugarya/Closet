@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/main_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sugarya.closet.ui.MainContainerActivity"
+    >
+
+    <FrameLayout
+        android:id="@+id/main_container_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </FrameLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bnv_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bottom_bar_height"
+        android:layout_marginBottom="@dimen/app_bottom_bar_margin_bottom"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:itemBackground="@drawable/bg_item_bill_structure"
+        app:menu="@menu/store_navigation"
+        />
+
+
+</RelativeLayout>

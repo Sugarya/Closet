@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="3dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/img_item_dressing"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line"
+            />
+
+        <TextView
+            android:id="@+id/tv_item_dressing_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:background="@drawable/bg_item_product_list"
+            android:textColor="@color/font_red_light"
+            android:text="开始搭配"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_item_dressing_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:padding="8dp"
+        android:src="@drawable/ic_login_close"
+        />
+
+</android.support.v7.widget.CardView>

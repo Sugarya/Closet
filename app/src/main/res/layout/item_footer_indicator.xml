@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@android:color/transparent"
+    >
+
+    <com.sugarya.closet.ui.widgets.enhancerecycler.indicator.LoadingIndicatorView
+        android:id="@+id/item_footer_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:indicator_color="@color/indicator_loading_more_orange"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

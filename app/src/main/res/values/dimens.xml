@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tool_bar_padding_top">24dp</dimen>
+    <dimen name="tool_bar_height_adapt">74dp</dimen>
+
+    <integer name="littleAnimTime">50</integer>
+
+    <dimen name="category_unit_height">65dp</dimen>
+    <integer name="category_unit_height">65</integer>
+
+    <dimen name="app_bottom_bar_height">56dp</dimen>
+    <dimen name="app_bottom_bar_margin_bottom">-56dp</dimen>
+    <dimen name="grid_expected_size">120dp</dimen>
+
+
+    <dimen name="card_padding">110dp</dimen>
+    <dimen name="dressing_room_top_margin">190dp</dimen>
+
+
+
+</resources>

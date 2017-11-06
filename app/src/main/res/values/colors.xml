@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#ff4081</color>
+    <color name="colorPrimary">#ff4081</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="indicator_loading_more_orange">#F4A33B</color>
+    <color name="bg_item_product_ripple">#22000000</color>
+    <color name="bg_invoice_detail_item_dark">#f2f2f2</color>
+    <color name="bg_default_category">#f2f2f2</color>
+    <color name="bg_selected_category">#f8f8f8</color>
+    <color name="bg_fragment_body">#f8f8f8</color>
+
+    <color name="line">#e0e0e0</color>
+
+    <color name="yellow">#ffc555</color>
+    <color name="gray">#999999</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="dark_gray">#333333</color>
+    <color name="bill_tab_text_color">#88424548</color>
+    <color name="bg_gray">#c3c6ca</color>
+    <color name="red_dark">#a83a3a</color>
+    <color name="red_dark_bright">#f15353</color>
+    <color name="orange">#FF5E1F</color>
+    <color name="red_bottom">#FFE03A41</color>
+
+    <color name="font_white">#f8f8f8</color>
+    <color name="font_black">#2a2a2a</color>
+    <color name="font_black_light">#666666</color>
+    <color name="font_gray">#999999</color>
+    <color name="font_gray_gray">#cccccc</color>
+    <color name="font_green">#00cc66</color>
+    <color name="font_red">#f02b2b</color>
+    <color name="font_red_tint">#ffcccd</color>
+    <color name="font_red_light">#ed4c4c</color>
+    <color name="font_red_qr">#F25757</color>
+    <color name="font_white_gray">#66fefeff</color>
+    <color name="font_filter_cover">#66cccccc</color>
+    <color name="font_gray_translucence">#77cccccc</color>
+
+    <color name="bg_white">#EEEEEE</color>
+    <color name="bg_mine_fragment_item">#f8f8f8</color>
+    <color name="btn_red">#E63F38</color>
+</resources>
